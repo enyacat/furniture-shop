@@ -10,7 +10,6 @@ import {
   Services,
   Contact,
   Loading,
-  Error,
   ProductImages,
   AddToCart,
   Filters,
@@ -21,6 +20,17 @@ import {
   PageHero,
   StripeCheckout,
 } from './components'
+import {
+  Home,
+  SingleProduct,
+  Cart,
+  Checkout,
+  Error,
+  About,
+  Products,
+  PrivateRoute,
+  AuthWrapper,
+} from './pages'
 import AboutPage from './pages/AboutPage'
 import HomePage from './pages/HomePage'
 import ProductsPage from './pages/ProductsPage'
@@ -38,7 +48,14 @@ function App() {
         <Route path='/cart' element={<CartContent />}></Route>
         <Route path='/products' element={<ProductsPage />} />
         <Route path='/products/:id' element={<SingleProductPage />} />
-        <Route path='/checkout' element={<StripeCheckout />}></Route>
+        <Route
+          path='/checkout'
+          element={
+            <PrivateRoute>
+              <StripeCheckout />
+            </PrivateRoute>
+          }
+        />
         <Route path='*' element={<Error />}></Route>
       </Routes>
       <Footer />
