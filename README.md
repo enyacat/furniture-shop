@@ -8,4 +8,4 @@ Technology used: **React**, **Styled Component**, **Auth0** ands **Stripe Paymen
 
 I followed John Smilga's React tutorial on Udemy to make this site.
 
-![screen shot](./src/assets/screenShot.png 'screenshot')
+![screen shot](./src/assets/screenshot.png 'screenshot')
