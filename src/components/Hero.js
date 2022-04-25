@@ -13,8 +13,9 @@ const Hero = () => {
           comfort zone
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iure
-          quasi odit tenetur unde officiis repudiandae quod deserunt quia eum?
+          Our homes are where we make ourselves. They're where our inspirations
+          become ideas, where we practice our passions, and where our hobbies
+          blossom and take hold.
         </p>
         <Link to='/products' className='btn hero-btn'>
           shop now
