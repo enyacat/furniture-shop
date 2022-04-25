@@ -1,6 +1,6 @@
 # Furniture shop
 
-You can order your favourite homewares with proper authentication and safe payment.
+You can search and order your favourite furniture, sort and filter by company and etc. It came with proper authentication and safe payment.
 
 #### Access here: https://furniture-comfy.netlify.app
 
